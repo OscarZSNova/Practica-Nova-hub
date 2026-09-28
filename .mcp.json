@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "practica-people": {
+      "type": "stdio",
+      "command": "uv",
+      "args": ["run", "practica-people-mcp"]
+    }
+  }
+}

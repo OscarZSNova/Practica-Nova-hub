@@ -1,0 +1,6 @@
+[
+  {"empleado": "EMP-001", "anio": 2026, "dias_ley": 12, "dias_tomados": 5},
+  {"empleado": "EMP-002", "anio": 2026, "dias_ley": 14, "dias_tomados": 14},
+  {"empleado": "EMP-003", "anio": 2026, "dias_ley": 20, "dias_tomados": 3},
+  {"empleado": "EMP-005", "anio": 2026, "dias_ley": 12, "dias_tomados": 0}
+]

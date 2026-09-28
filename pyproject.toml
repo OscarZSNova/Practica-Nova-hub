@@ -1,0 +1,45 @@
+[project]
+name = "practica-people-mcp"
+version = "0.1.0"
+description = "Proyecto de práctica: MCP Tools con arquitectura hexagonal (modular monolith)."
+readme = "GUIA.md"
+requires-python = ">=3.12"
+dependencies = [
+    "mcp[cli]>=1.12",
+    "pydantic>=2.7",
+]
+
+[project.scripts]
+practica-people-mcp = "practica_mcp.apps.combined:main"
+practica-employees-mcp = "practica_mcp.apps.employees:main"
+practica-vacations-mcp = "practica_mcp.apps.vacations:main"
+practica-candidates-mcp = "practica_mcp.apps.candidates:main"
+
+[dependency-groups]
+dev = [
+    "pytest>=8",
+    "pytest-asyncio>=0.24",
+    "pytest-cov>=5",
+    "ruff>=0.6",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/practica_mcp"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "--import-mode=importlib"
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+extend-exclude = ["README.md"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]

@@ -1,0 +1,7 @@
+[
+  {"num_empleado": "EMP-001", "nombre": "Ana", "apellidos": "López Ruiz", "depto": "Finanzas", "puesto": "Analista de nómina", "estatus": "ACTIVO"},
+  {"num_empleado": "EMP-002", "nombre": "Carlos", "apellidos": "Méndez Soto", "depto": "Tecnología", "puesto": "Desarrollador backend", "estatus": "ACTIVO"},
+  {"num_empleado": "EMP-003", "nombre": "Lucía", "apellidos": "Hernández Gil", "depto": "Tecnología", "puesto": "Tech lead", "estatus": "ACTIVO"},
+  {"num_empleado": "EMP-004", "nombre": "Jorge", "apellidos": "Pérez Vega", "depto": "Recursos Humanos", "puesto": "Reclutador", "estatus": "BAJA"},
+  {"num_empleado": "EMP-005", "nombre": "María", "apellidos": "Torres Luna", "depto": "Finanzas", "puesto": "Contadora", "estatus": "ACTIVO"}
+]

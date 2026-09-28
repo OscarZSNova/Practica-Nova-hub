@@ -1,0 +1,6 @@
+[
+  {"folio": "CAN-101", "nombre_completo": "Sofía Ramírez", "vacante": "Desarrollador backend", "anios_exp": 4, "habilidades": "Python, SQL, Docker"},
+  {"folio": "CAN-102", "nombre_completo": "Diego Castro", "vacante": "Desarrollador backend", "anios_exp": 1, "habilidades": "JavaScript, Python"},
+  {"folio": "CAN-103", "nombre_completo": "Valeria Núñez", "vacante": "Analista de nómina", "anios_exp": 6, "habilidades": "Excel, SAP, Nómina"},
+  {"folio": "CAN-104", "nombre_completo": "Andrés Molina", "vacante": "Tech lead", "anios_exp": 9, "habilidades": "Python, Arquitectura, Liderazgo, AWS"}
+]
