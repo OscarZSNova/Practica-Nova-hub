@@ -2,7 +2,7 @@
 name = "practica-people-mcp"
 version = "0.1.0"
 description = "Proyecto de práctica: MCP Tools con arquitectura hexagonal (modular monolith)."
-readme = "GUIA.md"
+readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "mcp[cli]>=1.12",
@@ -39,7 +39,6 @@ asyncio_default_fixture_loop_scope = "function"
 [tool.ruff]
 line-length = 100
 target-version = "py312"
-extend-exclude = ["README.md"]
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "B", "UP"]
